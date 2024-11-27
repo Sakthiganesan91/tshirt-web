@@ -30,6 +30,7 @@ const DesignViewClient = ({ categoryName }) => {
                   navigate("/design", {
                     state: {
                       logo: design.designUrl,
+                      category: categoryName,
                     },
                   });
                 }}
